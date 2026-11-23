@@ -4,6 +4,8 @@
 
 <br/>
 
+[![GitHub Stars](https://img.shields.io/github/stars/Bishnucd/AI-skill-library?style=flat&color=eab308)](https://github.com/Bishnucd/AI-skill-library/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Bishnucd/AI-skill-library?style=flat&color=38bdf8)](https://github.com/Bishnucd/AI-skill-library/network/members)
 [![Verified Skills](https://img.shields.io/badge/Verified%20Skills-780-38bdf8.svg)](SKILLS_INDEX.md)
 [![Categories](https://img.shields.io/badge/Categories-20-818cf8.svg)](CATEGORY_INDEX.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-34d399.svg)](LICENSE)
