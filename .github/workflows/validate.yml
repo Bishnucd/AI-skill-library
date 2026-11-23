@@ -1,0 +1,30 @@
+name: Validate
+
+# This workflow is prepared for the user's manual publication.
+# It is not active until the repository is pushed to GitHub by the user.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Structural validation
+        run: node scripts/validate.mjs
+
+      - name: Index is up to date
+        run: node scripts/build-index.mjs --check
