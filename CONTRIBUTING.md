@@ -414,8 +414,8 @@ A failed security check blocks skill approval.
 ## Getting Help
 
 - Check existing issues and discussions
-- Review [RULES.md](RULES.md) for project operating procedures
-- See [CHECK.md](CHECK.md) for validation requirements
+- Review our [Skill Submission Process](#skill-submission-process) for project operating procedures
+- Run `node scripts/validate.mjs` for validation requirements
 - Ask questions in GitHub Discussions (when available)
 
 ---

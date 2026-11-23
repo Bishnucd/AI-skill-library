@@ -44,17 +44,14 @@ const REQUIRED_CATEGORIES = [
 ];
 
 const CONTROL_FILES = [
-  "RULES.md",
-  "FEATURES.md",
-  "CHECK.md",
-  "RUNNING.md",
-  "UNSAVED.md",
-  "PROJECT_STATE.md",
   "README.md",
   "CONTRIBUTING.md",
   "CATEGORY_INDEX.md",
   "SKILLS_INDEX.md",
   "RESEARCH_SOURCES.md",
+  "LICENSE",
+  "CODE_OF_CONDUCT.md",
+  "SECURITY.md",
 ];
 
 const NAME_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
