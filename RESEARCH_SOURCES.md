@@ -35,7 +35,7 @@ requires a `DIRECT` check of the licence file at the source.
 | Discovery | 2026-11-22 |
 | Last verified | 2026-11-22 (DIRECT) |
 | Used for | `name`/`description`/`license`/`compatibility`/`metadata`/`allowed-tools` rules, directory conventions, validation expectations |
-| Imported content | Field constraints are restated in our own words in `RULES.md` and `scripts/validate.py`. |
+| Imported content | Field constraints are restated in our own words in `CONTRIBUTING.md` and `scripts/validate.mjs`. |
 
 ### S3 – Anthropic: "Equipping agents for the real world with Agent Skills"
 | Field | Value |
@@ -111,7 +111,7 @@ requires a `DIRECT` check of the licence file at the source.
 |----------|----------|
 | Use `SKILL.md` + YAML frontmatter as the unit of a skill | S1, S2 |
 | Keep `SKILL.md` under ~500 lines and push detail to `references/` | S2 |
-| Require a human-facing `README.md` per skill even though upstream discourages it | Project requirement (master prompt §8); recorded as an explicit deviation in `RULES.md` |
+| Require a human-facing `README.md` per skill even though upstream discourages it | Essential for human discovery and developer ergonomics; documented in `CONTRIBUTING.md` |
 | Fifteen major categories, three levels deep | S4, S5, S7, S8 clustering |
 | Separate `agent-technologies` from `software-engineering` | Agent-building work (skills, evals, orchestration) is distinct from application code work |
 | Keep `maps-and-location` as its own category | Distinct data model, tooling, and failure modes (match confidence, routing constraints) |

@@ -1,6 +1,6 @@
 # CATEGORY_INDEX.md – Category Architecture
 
-This file defines the 20 core categories and subcategories of Community List.
+This file defines the 20 core categories and subcategories of the AI Skill Library.
 
 The taxonomy below represents the consolidated, non-overlapping standard library for AI agents. Categories describe **the work the skill performs**, not the tool it uses.
 

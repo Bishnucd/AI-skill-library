@@ -1,6 +1,6 @@
-# Contributing to Community List
+# Contributing to AI Skill Library
 
-Thank you for contributing to Community List! This guide will help you submit high-quality skills that benefit the entire AI agent community.
+Thank you for contributing to AI Skill Library! This guide will help you submit high-quality skills that benefit the entire AI agent community.
 
 ## Table of Contents
 - [Code of Conduct](#code-of-conduct)

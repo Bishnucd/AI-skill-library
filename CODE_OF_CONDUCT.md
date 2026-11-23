@@ -2,7 +2,7 @@
 
 ## Our pledge
 
-We want participating in Community List to be a harassment-free experience for
+We want participating in AI Skill Library to be a harassment-free experience for
 everyone, regardless of age, body size, visible or invisible disability, ethnicity,
 sex characteristics, gender identity and expression, level of experience, education,
 socio-economic status, nationality, personal appearance, race, religion, or sexual
@@ -14,7 +14,7 @@ identity and orientation.
 - Critique the skill, not the contributor.
 - Assume a licence or safety question is asked in good faith, and answer it with evidence.
 - Accept that a skill may be rejected. Rejection is about fit with `CATEGORY_INDEX.md`
-  and `RULES.md`, not about the author.
+  and `CONTRIBUTING.md` standards, not about the author.
 - Give credit accurately. Never present someone else's work as your own.
 
 ## Unacceptable behaviour

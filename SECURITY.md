@@ -37,7 +37,7 @@ private vulnerability reporting if it is enabled. Include:
 - Whether you believe it has been used.
 
 You will receive an acknowledgement within seven days. Confirmed issues are fixed by
-removing or rewriting the skill, and the removal is recorded in `RUNNING.md`.
+removing or rewriting the skill, and the resolution is documented in the pull request and repository security log.
 
 ## Scope
 
