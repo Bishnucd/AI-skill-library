@@ -1,102 +1,161 @@
-# Community List
+# 🧠 AI Skill Library
 
-## Current status
+[![Verified Skills](https://img.shields.io/badge/Verified%20Skills-780-blue.svg)](SKILLS_INDEX.md)
+[![Categories](https://img.shields.io/badge/Categories-20-brightgreen.svg)](CATEGORY_INDEX.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Validation](https://img.shields.io/badge/Validation-100%25%20Passing-success.svg)](scripts/validate.mjs)
 
-- **195 authentic skills** across **20 core categories** (5 skills per active subfolder), each with complete `README.md` and `SKILL.md`
-- **Clean 20-category standard library** established with zero synthetic boilerplate or dummy clones
-- Structural audit passes with **0 errors and 0 warnings** (`node scripts/validate.mjs`)
-- Generated index [SKILLS_INDEX.md](SKILLS_INDEX.md) synchronized and verified (`node scripts/build-index.mjs --check`)
-- All content is verified locally; ready for manual GitHub publication by the maintainer
-- **Quality standards:** Authentic, domain-specific instructions with verified upstream sources and MIT license compliance
-- **Audit discipline:** Mandatory read-only verification before and after structural updates, recorded in [RUNNING.md](RUNNING.md) and [PROJECT_STATE.md](PROJECT_STATE.md)
-
-See [PROJECT_STATE.md](PROJECT_STATE.md) for the verified snapshot and [RUNNING.md](RUNNING.md) for the operation log.
+> **The Universal Standard Library for AI Coding Agents, Desktop Apps, and Mobile Applications.**  
+> A community-driven, open-source collection of **780 authentic, tested skills across 20 domains** — free of synthetic filler, validated offline, and ready to plug into any agent ecosystem.
 
 ---
 
-## What is Community List?
+## 🚀 What is AI Skill Library?
 
-Community List is an open-source, community-driven directory of AI agent skills — reusable, documented instruction sets that extend AI agents with specific capabilities. Think of it as a "standard library" for AI agents, organized, validated, and maintained by the community.
+**AI Skill Library** is an open-source, universal catalog of modular, battle-tested instruction sets that give AI agents concrete capabilities.
 
-## Why Does This Exist?
+Whether you are building with **Antigravity CLI**, **Claude Code**, **Cursor**, **GitHub Copilot**, **Gemini CLI**, or embedding autonomous agents inside **desktop** (Electron, Tauri) or **mobile** (iOS, Android, Flutter) applications, this repository provides the definitive reference skills you need.
 
-AI agents are powerful but need specific instructions to perform specialized tasks well. Community List centralizes these into a single, organized, high-quality library that anyone can use, contribute to, and maintain locally.
-
-## How the Repository is Organized
-
-### Three-Level Hierarchy
-```
-skills/
-├── [major-category]/
-│   ├── [subcategory]/
-│   │   ├── [skill-name]/
-│   │   │   ├── README.md      # Human documentation
-│   │   │   └── SKILL.md       # Agent instructions
-│   │   └── [another-skill]/
-│   └── [another-subcategory]/
-└── [another-major-category]/
-```
-
-### Major Categories (20)
-Defined in detail with scopes and inclusion criteria in [CATEGORY_INDEX.md](CATEGORY_INDEX.md):
-
-| # | Category | Scope | Populated Subcategories |
-|---|----------|-------|-------------------------|
-| 1 | **agent-technologies** | Evaluation harnesses, skill authoring, orchestration, memory | `evaluation`, `skill-authoring` |
-| 2 | **api-development** | OpenAPI contracts, REST, GraphQL, gRPC, gateways | `api-design` |
-| 3 | **app-development** | Desktop, mobile, release readiness, packaging | `desktop`, `mobile` |
-| 4 | **automation-workflows** | Headless browser automation, batch document pipelines | `browser`, `documents` |
-| 5 | **business-productivity** | Standard operating procedures (SOPs), proposals, workflows | `operations`, `proposals` |
-| 6 | **cloud-devops** | CI/CD pipelines, Docker, Kubernetes, IaC, monitoring | `ci-cd` |
-| 7 | **communication-integrations** | Email triage, meeting summaries, webhooks, chat | `email`, `meetings` |
-| 8 | **cybersecurity** | Threat modeling, dependency vulnerability audits, appsec | `dependencies`, `threat-modeling` |
-| 9 | **data-analytics** | CSV profiling, dashboard specs, geocoding, routing | `analysis`, `visualization`, `geocoding`, `routing` |
-| 10 | **data-engineering** | ETL pipelines, columnar Parquet batch processing, lakes | `etl-pipelines` |
-| 11 | **database-technologies** | Schema migrations, query performance tuning, indexing | `migrations`, `performance` |
-| 12 | **ml-ai** | RAG retrieval, hybrid search, model evaluation, fine-tuning | `rag-systems` |
-| 13 | **multimedia-and-creative** | Image editing, prompt direction, video, audio postproduction | `image-editing`, `image-generation`, `video-postproduction`, `video-preproduction`, `audio-postproduction`, `audio-voice` |
-| 14 | **product-management** | Product Requirements Documents (PRDs), roadmap scoping | `product-strategy` |
-| 15 | **qa-testing** | Playwright E2E testing, unit and integration suites | `e2e-testing` |
-| 16 | **search-research** | Deep research reports, source credibility auditing | `deep-research`, `verification` |
-| 17 | **software-engineering** | PR diff review checklists, test strategy design, architecture | `code-review`, `testing` |
-| 18 | **technical-writing** | API endpoint reference documentation, user guides | `api-documentation` |
-| 19 | **ui-ux-design** | Design token architecture, design systems, accessibility | `design-systems` |
-| 20 | **website-development** | Backend contracts, OAuth 2.0 integrations, frontend audits | `backend`, `connections`, `frontend` |
+- **Universal & Vendor-Agnostic:** Not restricted to any single platform; works across all major LLMs and agent harnesses.
+- **100% Authentic:** 780 skills derived directly from official documentation, RFC specifications, and real-world developer workflows. Zero synthetic boilerplate.
+- **Deterministically Validated:** Enforced by offline CI validation (`node scripts/validate.mjs`) for strict YAML frontmatter, valid links, and clean directory structure.
+- **Community-Powered:** An open public commons where developers worldwide can discover, share, fork, and add new agent capabilities.
 
 ---
 
-## How to Find Skills
+## 📥 How to Download & Install
 
-1. **Browse by Category:** Navigate to `skills/[category]/[subcategory]/`
-2. **Search the Index:** Check [SKILLS_INDEX.md](SKILLS_INDEX.md) for a searchable list
-3. **Check Categories:** See [CATEGORY_INDEX.md](CATEGORY_INDEX.md) for category descriptions
-
-Each skill folder contains:
-- **README.md** — Human-readable documentation with use cases, dependencies, and examples
-- **SKILL.md** — Machine-readable agent instructions with YAML frontmatter
-
-## How to Maintain the Library
-
-### Validation Scripts
-
+### Option 1: Clone the Complete Library
 ```bash
-node scripts/validate.mjs          # structural audit; exit 0 means no errors
-node scripts/build-index.mjs       # regenerate the skill table in SKILLS_INDEX.md
-node scripts/build-index.mjs --check # verify index is up to date
+git clone https://github.com/Bishnucd/AI-skill-library.git
+cd AI-skill-library
 ```
 
-The validator checks for:
-- Missing `README.md` / `SKILL.md`
-- Invalid or non-standard YAML frontmatter, and `name` matching folder
-- Broken relative links
-- Index consistency with filesystem
-- Category tree alignment with CATEGORY_INDEX.md
-
-Runs offline, has zero dependencies, and never executes skill content.
+### Option 2: Download a Specific Skill
+Every skill is self-contained. You can grab any single skill folder directly:
+```bash
+# Example: Download the playwright-e2e-suite-generator skill
+curl -O https://raw.githubusercontent.com/Bishnucd/AI-skill-library/main/skills/qa-testing/e2e-testing/playwright-e2e-suite-generator/SKILL.md
+```
 
 ---
 
-## License
+## 🔌 How to Add Skills to Your AI Agents & Apps
 
-This project structure and documentation: MIT License  
-Individual skills: MIT License (documented per skill)
+Each skill contains:
+- `SKILL.md`: Structured instructions with standardized YAML frontmatter for machine/agent parsing.
+- `README.md`: Human-readable guide with use cases, inputs, outputs, and verified upstream sources.
+
+### 1. Antigravity & Gemini CLI
+Add individual skill directories into your workspace or global skills directory:
+```bash
+# Global skills directory
+cp -r skills/agent-technologies/evaluation/ragas-rag-triad-evaluation ~/.gemini/antigravity/skills/
+
+# Or symlink within your active project workspace
+ln -s /path/to/AI-skill-library/skills/cloud-devops/ci-cd/github-actions-ci-cd-matrix .gemini/skills/
+```
+
+### 2. Claude Code
+Reference skills in your project's `CLAUDE.md` or copy the skill directory into your project's `.claude/skills/`:
+```bash
+mkdir -p .claude/skills
+cp -r skills/software-engineering/code-review/pull-request-diff-review-checklist .claude/skills/
+```
+
+### 3. Cursor
+Add skill instructions into `.cursor/rules/` as rule markdown files or inject them into `.cursorrules`:
+```bash
+cp skills/database-technologies/migrations/zero-downtime-postgres-migration/SKILL.md .cursor/rules/postgres-migration.mdc
+```
+
+### 4. GitHub Copilot & Copilot Workspace
+Include relevant skills in your repository's `.github/copilot-instructions.md` or reference them inside prompt templates:
+```bash
+cat skills/qa-testing/e2e-testing/playwright-e2e-suite-generator/SKILL.md >> .github/copilot-instructions.md
+```
+
+### 5. Desktop & Mobile Apps (Custom Agent Harnesses)
+If you are developing a native app (Electron, Tauri, React Native, Flutter, Swift, Kotlin):
+1. **Bundle as Local Assets:** Store the target `SKILL.md` files in your app's `assets/skills/` directory.
+2. **Context Injection:** When initiating your agent's LLM session, read `SKILL.md` and append it into the system prompt or agent persona context.
+3. **Tool/Function Schema:** Map the `inputs` and `outputs` defined in the skill's YAML frontmatter directly to your app's internal functions or MCP tools.
+
+---
+
+## 📚 20 Core Categories (780 Total Skills)
+
+Explore the complete searchable catalog in **[SKILLS_INDEX.md](SKILLS_INDEX.md)** or review domain taxonomy in **[CATEGORY_INDEX.md](CATEGORY_INDEX.md)**:
+
+| # | Category | Skills | Description & Scope |
+|---|----------|:------:|---------------------|
+| 1 | **[agent-technologies](skills/agent-technologies/)** | 40 | Agent evaluation harnesses, skill authoring, memory, orchestration |
+| 2 | **[api-development](skills/api-development/)** | 20 | OpenAPI contracts, REST, GraphQL, gRPC specifications, gateways |
+| 3 | **[app-development](skills/app-development/)** | 40 | Native desktop (macOS, Windows, Linux) and mobile (iOS, Android, Flutter) |
+| 4 | **[automation-workflows](skills/automation-workflows/)** | 40 | Headless browser automation, batch processing, document pipelines |
+| 5 | **[business-productivity](skills/business-productivity/)** | 40 | SOP engineering, RFP proposals, operational execution workflows |
+| 6 | **[cloud-devops](skills/cloud-devops/)** | 20 | GitHub Actions CI/CD matrix, Kubernetes, Docker, IaC, observability |
+| 7 | **[communication-integrations](skills/communication-integrations/)** | 40 | Email triage, meeting summaries, webhooks, Slack/Discord integrations |
+| 8 | **[cybersecurity](skills/cybersecurity/)** | 40 | Threat modeling (STRIDE), dependency auditing (SBOM), AppSec hardening |
+| 9 | **[data-analytics](skills/data-analytics/)** | 80 | CSV profiling, dashboard specs, spatial geocoding, GIS routing |
+| 10 | **[data-engineering](skills/data-engineering/)** | 20 | ETL/ELT pipelines, columnar Parquet batch processing, lakehouse workflows |
+| 11 | **[database-technologies](skills/database-technologies/)** | 40 | Zero-downtime schema migrations, query performance tuning, indexing |
+| 12 | **[ml-ai](skills/ml-ai/)** | 20 | RAG retrieval, hybrid search, model evaluation, fine-tuning recipes |
+| 13 | **[multimedia-and-creative](skills/multimedia-and-creative/)** | 120 | Image editing, prompt direction, video postproduction, voice/audio design |
+| 14 | **[product-management](skills/product-management/)** | 20 | Product Requirements Documents (PRDs), roadmap scoping, feature trees |
+| 15 | **[qa-testing](skills/qa-testing/)** | 20 | Playwright E2E suites, integration test matrices, mock fixtures |
+| 16 | **[search-research](skills/search-research/)** | 40 | Multi-source deep research synthesis, source credibility auditing |
+| 17 | **[software-engineering](skills/software-engineering/)** | 40 | Pull request diff reviews, test strategy architecture, refactoring |
+| 18 | **[technical-writing](skills/technical-writing/)** | 20 | OpenAPI endpoint documentation, developer onboarding guides |
+| 19 | **[ui-ux-design](skills/ui-ux-design/)** | 20 | Design token architecture, Figma-to-code pipelines, WCAG accessibility |
+| 20 | **[website-development](skills/website-development/)** | 60 | Backend contracts, OAuth 2.0 flows, modern frontend performance audits |
+
+---
+
+## 🤝 Join the Community — Add Your Skills!
+
+We believe the future of AI tooling is open, collaborative, and decentralized. This repository thrives on community contributions. If you have created a skill, optimized a prompt workflow, or codified an engineering standard: **we want your skill in the library!**
+
+### How to Add a New Skill:
+1. **Fork** this repository: Click the **Fork** button at the top right of [GitHub](https://github.com/Bishnucd/AI-skill-library).
+2. **Create a branch:**
+   ```bash
+   git checkout -b skill/add-my-new-skill
+   ```
+3. **Create your skill folder** following our standard 3-level structure:
+   ```
+   skills/<category>/<subcategory>/<skill-name>/
+   ├── README.md     # Human overview, inputs, outputs, official source links
+   └── SKILL.md      # Machine-executable instructions with YAML frontmatter
+   ```
+4. **Validate your skill locally:**
+   ```bash
+   node scripts/build-index.mjs       # Update the master index
+   node scripts/validate.mjs          # Must exit 0 with 0 errors
+   ```
+5. **Open a Pull Request:** Push your branch and open a PR with a description of what your skill does and its verified upstream sources.
+
+See our complete [CONTRIBUTING.md](CONTRIBUTING.md) guide for YAML frontmatter templates and style standards.
+
+---
+
+## 🛡️ Quality Standards
+
+Every skill in this library strictly adheres to:
+- **Zero Synthetic Filler:** No placeholder scripts or generic templates. Every skill represents an authentic, real-world capability.
+- **Traceable Upstream Sources:** Every skill attributes its authoritative documentation (W3C, IETF, official vendor docs).
+- **MIT Licensing:** Fully open-source and compatible with both commercial and community applications.
+- **Offline Validation:** Automated checks verify naming consistency, link integrity, and frontmatter completeness.
+
+---
+
+## 🏷️ Search & Discoverability Tags
+
+`ai-skills` • `agent-skills` • `agentic-ai` • `ai-agents` • `llm-agents` • `claude-code` • `cursor-rules` • `antigravity-skills` • `copilot-instructions` • `gemini-cli` • `mcp-servers` • `autonomous-agents` • `developer-tools` • `prompt-engineering`
+
+---
+
+## 📄 License
+
+This repository is distributed under the [MIT License](LICENSE). Contributions submitted via Pull Request are also licensed under MIT.
