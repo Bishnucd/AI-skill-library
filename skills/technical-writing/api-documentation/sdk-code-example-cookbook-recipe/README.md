@@ -1,10 +1,10 @@
 # Sdk Code Example Cookbook Recipe
 
 ## Description
-Authors modular, task-oriented code recipes and cookbooks demonstrating multi-step API workflows. Use when providing developers with battle-tested code patterns for common use cases.
+Authors multi-language SDK code recipes (Python, Node, Go) with copy-pasteable execution steps. Use when providing developers with battle-tested code snippets for real-world tasks.
 
 ## Purpose
-Developers prefer copying proven recipe patterns over reading abstract API references. Cookbook recipes provide complete, commented solutions to real-world integration challenges.
+Abstract API references leave developers guessing how to assemble real applications. Cookbooks provide complete, functional recipes solving specific common integration tasks.
 
 ## When to Use
 - When executing sdk code example cookbook recipe in production workflows.
@@ -12,29 +12,29 @@ Developers prefer copying proven recipe patterns over reading abstract API refer
 
 ## When NOT to Use
 - Ad-hoc, unstructured exploratory tasks where formal workflows add unnecessary overhead.
-- Environments where required dependencies (Markdown, Jupyter Notebooks) cannot be provisioned.
+- Environments where required dependencies (Code Recipes, SDK Cookbook) cannot be provisioned.
 
 ## Supported Technologies
-- Markdown
-- Jupyter Notebooks
-- Python / TypeScript
-- Cookbooks
+- Code Recipes
+- SDK Cookbook
+- Multi-Language Examples
+- Developer Enablement
 
 ## Example Use Cases
-### Official API Cookbooks
-Publishing recipes demonstrating complex multi-step payment and refund workflows.
+### Webhook Verification and Idempotency Recipe
+Providing developers with copyable code to verify cryptographic signatures and handle duplicate webhooks.
 
-### AI Integration Patterns
-Showing developers how to implement RAG and function calling in their own codebases.
+### Bulk File Upload and Progress Tracking Recipe
+Demonstrating chunked multipart file uploads with real-time percentage progress callbacks.
 
 ## Usage Instructions
 1. Review the operational workflow defined in `SKILL.md`.
-2. Ensure runtime dependencies (Markdown) are configured in the host environment.
+2. Ensure runtime dependencies (Code Recipes) are configured in the host environment.
 3. Execute the workflow steps sequentially, validating intermediate outputs.
 4. Verify the final generated artifact against declared acceptance criteria.
 
 ## Source and Attribution
-- **Source:** https://github.com/openai/openai-cookbook
+- **Source:** https://github.com/stripe-samples
 - **License:** MIT
 - **Created:** 2026-11-23
 - **Version:** 1.0.0

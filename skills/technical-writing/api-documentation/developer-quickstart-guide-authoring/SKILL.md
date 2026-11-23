@@ -1,35 +1,36 @@
 ---
 name: developer-quickstart-guide-authoring
-description: Authors frictionless "Hello World" developer quickstart tutorials with copy-pasteable code examples. Use when writing onboarding documentation that gets developers integrated in under 5 minutes.
+description: Authors 5-minute time-to-first-hello-world developer onboarding quickstart tutorials. Use when accelerating developer adoption and reducing integration friction for new APIs.
 license: MIT
 metadata:
   author: Community List Maintainers
   version: "1.0.0"
-  source: "https://stripe.com/docs/development/quickstart"
+  source: "https://en.wikipedia.org/wiki/Getting_started"
 ---
 # Developer Quickstart Guide Authoring
 
 ## Overview
-Developers judge APIs by how quickly they can make their first successful call. A great quickstart requires zero assumed knowledge, provides working credentials, and delivers value in minutes.
+Developers abandon APIs that take hours to test. A great quickstart gets developers from zero to their first successful API call in under 5 minutes with copy-pasteable code and clear prerequisites.
 
 ## Operational Workflow
 
-1. **Define clear prerequisites**:
-   - Define clear prerequisites: required account keys, supported programming language versions.
+1. **State prerequisites clearly upfront**:
+   - State prerequisites clearly upfront: required SDK version, API key, and environment setup.
 
-2. **Provide copy-pasteable package installation commands (npm, pip, brew).**:
-   - Provide copy-pasteable package installation commands (npm, pip, brew).
+2. **Provide single-command package installation instructions for major package managers.**:
+   - Provide single-command package installation instructions for major package managers.
 
-3. **Provide a complete, self-contained 10-line code snippet making the first API request.**:
-   - Provide a complete, self-contained 10-line code snippet making the first API request.
+3. **Present minimal copy-pasteable code sample (under 20 lines) executing an authentic API call.**:
+   - Present minimal copy-pasteable code sample (under 20 lines) executing an authentic API call.
 
-4. **Display the exact expected response JSON output and point to next deep-dive guides.**:
-   - Display the exact expected response JSON output and point to next deep-dive guides.
+4. **Show expected terminal output response and link directly to next steps and deeper guides.**:
+   - Show expected terminal output response and link directly to next steps and deeper guides.
 
 ## Recommended Tools & Environments
-- Markdown
-- Documentation Best Practices
-- curl / Python / Node.js
+- Quickstart Guides
+- Developer Experience (DX)
+- Technical Writing
+- Onboarding
 
 ## Verification & Execution Criteria
 - Pre-execution validation verifies all prerequisites and inputs.

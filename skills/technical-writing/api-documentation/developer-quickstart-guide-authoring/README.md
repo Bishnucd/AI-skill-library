@@ -1,10 +1,10 @@
 # Developer Quickstart Guide Authoring
 
 ## Description
-Authors frictionless "Hello World" developer quickstart tutorials with copy-pasteable code examples. Use when writing onboarding documentation that gets developers integrated in under 5 minutes.
+Authors 5-minute time-to-first-hello-world developer onboarding quickstart tutorials. Use when accelerating developer adoption and reducing integration friction for new APIs.
 
 ## Purpose
-Developers judge APIs by how quickly they can make their first successful call. A great quickstart requires zero assumed knowledge, provides working credentials, and delivers value in minutes.
+Developers abandon APIs that take hours to test. A great quickstart gets developers from zero to their first successful API call in under 5 minutes with copy-pasteable code and clear prerequisites.
 
 ## When to Use
 - When executing developer quickstart guide authoring in production workflows.
@@ -12,28 +12,29 @@ Developers judge APIs by how quickly they can make their first successful call. 
 
 ## When NOT to Use
 - Ad-hoc, unstructured exploratory tasks where formal workflows add unnecessary overhead.
-- Environments where required dependencies (Markdown, Documentation Best Practices) cannot be provisioned.
+- Environments where required dependencies (Quickstart Guides, Developer Experience (DX)) cannot be provisioned.
 
 ## Supported Technologies
-- Markdown
-- Documentation Best Practices
-- curl / Python / Node.js
+- Quickstart Guides
+- Developer Experience (DX)
+- Technical Writing
+- Onboarding
 
 ## Example Use Cases
-### Developer Portal Onboarding
-Reducing time-to-first-API-call from hours to 5 minutes for new platform developers.
+### SaaS Messaging API Quickstart Guide
+Guiding developers to send their first test SMS message in 3 minutes using Node.js or Python.
 
-### SDK Launch Documentation
-Publishing friendly getting-started guides alongside new client library releases.
+### Cloud Storage SDK 5-Minute Onboarding
+Demonstrating how to upload and download a file using the SDK with zero boilerplate.
 
 ## Usage Instructions
 1. Review the operational workflow defined in `SKILL.md`.
-2. Ensure runtime dependencies (Markdown) are configured in the host environment.
+2. Ensure runtime dependencies (Quickstart Guides) are configured in the host environment.
 3. Execute the workflow steps sequentially, validating intermediate outputs.
 4. Verify the final generated artifact against declared acceptance criteria.
 
 ## Source and Attribution
-- **Source:** https://stripe.com/docs/development/quickstart
+- **Source:** https://en.wikipedia.org/wiki/Getting_started
 - **License:** MIT
 - **Created:** 2026-11-23
 - **Version:** 1.0.0

@@ -11,7 +11,9 @@ The taxonomy below represents the consolidated, non-overlapping standard library
 ## Skill Standards & Quality Thresholds
 
 - **Quality over Quantity:** Every skill must be distinct, specific, actionable, and non-generic.
-- **Realistic Targets:** 5 to 15 authentic, production-grade skills per subcategory.
+- **Realistic Targets:** Minimum 20 to maximum 100 authentic, production-grade skills per active subfolder.
+- **Rarity Protection:** Single-solution skills solving unique domain problems receive maximum rarity priority and cannot be removed.
+- **Best-of-Breed Curation:** When multiple candidate skills overlap, benchmark and keep only the superior implementation.
 - **Zero Dummy Clones:** Synthetic boilerplate templates or numbered variants are strictly forbidden.
 - **Source Verification:** Every skill must cite authentic upstream sources and documentation.
 

@@ -1,10 +1,10 @@
 # Docusaurus Docs As Code Pipeline
 
 ## Description
-Configures modern docs-as-code documentation sites with MDX, search, and versioning using Docusaurus. Use when building and deploying developer documentation portals from markdown repos.
+Builds modern developer documentation portals with search, versioning, and MDX using Docusaurus. Use when deploying version-controlled docs-as-code platforms for engineering teams.
 
 ## Purpose
-Docs-as-code treats documentation like software: stored in git, reviewed in pull requests, and compiled automatically. Docusaurus provides interactive MDX components, versioning, and instant search.
+Docusaurus is an open-source documentation framework built on React. It supports versioned documentation releases, internationalization, Algolia search integration, and interactive MDX components.
 
 ## When to Use
 - When executing docusaurus docs as code pipeline in production workflows.
@@ -12,29 +12,29 @@ Docs-as-code treats documentation like software: stored in git, reviewed in pull
 
 ## When NOT to Use
 - Ad-hoc, unstructured exploratory tasks where formal workflows add unnecessary overhead.
-- Environments where required dependencies (Docusaurus v3, React / MDX) cannot be provisioned.
+- Environments where required dependencies (Docusaurus, React / MDX) cannot be provisioned.
 
 ## Supported Technologies
-- Docusaurus v3
+- Docusaurus
 - React / MDX
-- Algolia DocSearch
-- GitHub Pages
+- Docs-as-Code
+- Static Site Generator
 
 ## Example Use Cases
-### Open-Source Project Docs
-Deploying beautiful, searchable documentation sites for open-source libraries.
+### Enterprise Software Documentation Portal
+Deploying versioned documentation for software releases (v1.0, v2.0) with unified search.
 
-### Internal Engineering Handbooks
-Maintaining version-controlled engineering standards and architecture decision records.
+### Open-Source Project Developer Guides
+Publishing interactive guides with copyable code snippets, tabs for npm/yarn/pnpm, and dark mode.
 
 ## Usage Instructions
 1. Review the operational workflow defined in `SKILL.md`.
-2. Ensure runtime dependencies (Docusaurus v3) are configured in the host environment.
+2. Ensure runtime dependencies (Docusaurus) are configured in the host environment.
 3. Execute the workflow steps sequentially, validating intermediate outputs.
 4. Verify the final generated artifact against declared acceptance criteria.
 
 ## Source and Attribution
-- **Source:** https://docusaurus.io/docs
+- **Source:** https://docusaurus.io/
 - **License:** MIT
 - **Created:** 2026-11-23
 - **Version:** 1.0.0

@@ -1,36 +1,36 @@
 ---
 name: docusaurus-docs-as-code-pipeline
-description: Configures modern docs-as-code documentation sites with MDX, search, and versioning using Docusaurus. Use when building and deploying developer documentation portals from markdown repos.
+description: Builds modern developer documentation portals with search, versioning, and MDX using Docusaurus. Use when deploying version-controlled docs-as-code platforms for engineering teams.
 license: MIT
 metadata:
   author: Community List Maintainers
   version: "1.0.0"
-  source: "https://docusaurus.io/docs"
+  source: "https://docusaurus.io/"
 ---
 # Docusaurus Docs As Code Pipeline
 
 ## Overview
-Docs-as-code treats documentation like software: stored in git, reviewed in pull requests, and compiled automatically. Docusaurus provides interactive MDX components, versioning, and instant search.
+Docusaurus is an open-source documentation framework built on React. It supports versioned documentation releases, internationalization, Algolia search integration, and interactive MDX components.
 
 ## Operational Workflow
 
-1. **Configure docusaurus.config.js with site metadata, navigation sidebars, and theme settings.**:
-   - Configure docusaurus.config.js with site metadata, navigation sidebars, and theme settings.
+1. **Initialize Docusaurus project with npx create-docusaurus@latest my-docs classic --typescript.**:
+   - Initialize Docusaurus project with npx create-docusaurus@latest my-docs classic --typescript.
 
-2. **Structure documentation hierarchy using Markdown and interactive MDX React components.**:
-   - Structure documentation hierarchy using Markdown and interactive MDX React components.
+2. **Configure sidebars.ts defining hierarchical document navigation structure.**:
+   - Configure sidebars.ts defining hierarchical document navigation structure.
 
-3. **Configure multi-version documentation snapshots for major API release versions.**:
-   - Configure multi-version documentation snapshots for major API release versions.
+3. **Author documentation pages in Markdown/MDX with custom React admonitions and tabs.**:
+   - Author documentation pages in Markdown/MDX with custom React admonitions and tabs.
 
-4. **Set up automated GitHub Actions CI/CD to build and publish static documentation on git push.**:
-   - Set up automated GitHub Actions CI/CD to build and publish static documentation on git push.
+4. **Deploy static production build automatically to GitHub Pages, Netlify, or Vercel via CI/CD.**:
+   - Deploy static production build automatically to GitHub Pages, Netlify, or Vercel via CI/CD.
 
 ## Recommended Tools & Environments
-- Docusaurus v3
+- Docusaurus
 - React / MDX
-- Algolia DocSearch
-- GitHub Pages
+- Docs-as-Code
+- Static Site Generator
 
 ## Verification & Execution Criteria
 - Pre-execution validation verifies all prerequisites and inputs.
